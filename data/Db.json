@@ -3,7 +3,7 @@
     {
       "id": "1",
       "username": "john_doe",
-      "profilePic": "src/assets/profile-1.jpg",
+      "profilePic": "https://suganya-web.github.io/instagram-clone/images/profile-1.jpg",
       "imageUrl": "src/assets/nature-2.jpg",
       "caption": "Chilling in nature 🌿",
       "likes": 128,
