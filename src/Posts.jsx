@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import userimage from '../src/assets'
 
 function Posts() {
     const [posts,setPosts]=useState([]);
