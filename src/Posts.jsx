@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import userimage from '../src/assets'
+
 
 function Posts() {
     const [posts,setPosts]=useState([]);
@@ -10,6 +10,7 @@ function Posts() {
         .then((data) => setPosts(data))
         .catch(err => console.log(err))
     },[]);
+    console.log('')
 
   return (
     <div className='d-flex justify-content-center mt-4'>
