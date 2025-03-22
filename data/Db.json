@@ -3,8 +3,8 @@
     {
       "id": "1",
       "username": "john_doe",
-      "profilePic": "./src/assets/profile-1.jpg",
-      "imageUrl": "./src/assets/nature-2.jpg",
+      "profilePic": "src/assets/profile-1.jpg",
+      "imageUrl": "src/assets/nature-2.jpg",
       "caption": "Chilling in nature 🌿",
       "likes": 128,
       "comments": [
@@ -22,8 +22,8 @@
     {
       "id": "2",
       "username": "sara_lee",
-      "profilePic": "./src/assets/profile-2.jpg",
-      "imageUrl": "./src/assets/city.jpg",
+      "profilePic": "src/assets/profile-2.jpg",
+      "imageUrl": "src/assets/city.jpg",
       "caption": "City vibes 🏙️",
       "likes": 92,
       "comments": [
@@ -41,8 +41,8 @@
     {
       "id": "3",
       "username": "travel_guru",
-      "profilePic": "./src/assets/profile-3.jpg",
-      "imageUrl": "./src/assets/beach.jpg",
+      "profilePic": "src/assets/profile-3.jpg",
+      "imageUrl": "src/assets/beach.jpg",
       "caption": "Beach days are the best 🏖️☀️",
       "likes": 210,
       "comments": [
@@ -60,8 +60,8 @@
     {
       "id": 4,
     "username": "foodie_life",
-    "profilePic": "./src/assets/profile-4.jpg",
-    "imageUrl": "./src/assets/brunch.jpg",
+    "profilePic": "src/assets/profile-4.jpg",
+    "imageUrl": "src/assets/brunch.jpg",
     "caption": "Brunch goals 🍳🥞",
     "likes": 156,
     "comments": [
@@ -87,103 +87,103 @@
   "profile": {
     "id": 101,
     "username": "dona_donzz",
-    "profilePic": "./src/assets/profile-2.jpg"
+    "profilePic": "src/assets/profile-2.jpg"
   },
   "suggestions": [
     {
       "id": "100",
       "username": "john_doe",
-      "profilePic": "./src/assets/profile-1.jpg"
+      "profilePic": "src/assets/profile-1.jpg"
     },
     {
       "id": "102",
       "username": "sara_lee",
-      "profilePic": "./src/assets/profile-2.jpg"
+      "profilePic": "src/assets/profile-2.jpg"
     },
     {
       "id": "103",
       "username": "travel_guru",
-      "profilePic": "./src/assets/profile-3.jpg"
+      "profilePic": "src/assets/profile-3.jpg"
     },
     {
       "id": "104",
       "username": "artistic_soul",
-      "profilePic": "./src/assets/profile-6.jpg"
+      "profilePic": "src/assets/profile-6.jpg"
     },
     {
       "id": "105",
       "username": "car_enthusiast",
-      "profilePic": "./src/assets/profile-7.jpg"
+      "profilePic": "src/assets/profile-7.jpg"
     },
     {
       "id": "106",
       "username": "book_addict",
-      "profilePic": "./src/assets/profile-8.jpg"
+      "profilePic": "src/assets/profile-8.jpg"
     }
   ],
   "story": [
     {
       "id": "11",
       "username": "john_doe",
-      "profilePic": "./src/assets/profile-1.jpg",
+      "profilePic": "src/assets/profile-1.jpg",
       "imageUrl": "s./rc/assets/story-1.jpg"
     },
     {
       "id": "12",
       "username": "sara_lee",
-      "profilePic": "./src/assets/profile-2.jpg",
-      "imageUrl": "./src/assets/story-2.jpg"
+      "profilePic": "src/assets/profile-2.jpg",
+      "imageUrl": "src/assets/story-2.jpg"
     },
     {
       "id": "13",
       "username": "travel_guru",
-      "profilePic": "./src/assets/profile-3.jpg",
-      "imageUrl": "./src/assets/story-3.jpg"
+      "profilePic": "src/assets/profile-3.jpg",
+      "imageUrl": "src/assets/story-3.jpg"
     },
     {
       "id": "14",
       "username": "artistic_soul",
-      "profilePic": "./src/assets/profile-6.jpg",
-      "imageUrl": "./src/assets/story-4.png"
+      "profilePic": "src/assets/profile-6.jpg",
+      "imageUrl": "src/assets/story-4.png"
     },
     {
       "id": "15",
       "username": "car_enthusiast",
-      "profilePic": "./src/assets/profile-7.jpg",
-      "imageUrl": "./src/assets/story-5.jpg"
+      "profilePic": "src/assets/profile-7.jpg",
+      "imageUrl": "src/assets/story-5.jpg"
     },
     {
       "id": "16",
       "username": "book_addict",
-      "profilePic": "./src/assets/profile-8.jpg",
-      "imageUrl": "./src/assets/story-6.jpg"
+      "profilePic": "src/assets/profile-8.jpg",
+      "imageUrl": "src/assets/story-6.jpg"
     }
   ],
   "followers": [
     {
       "id": "103",
       "username": "travel_guru",
-      "profilePic": "./src/assets/profile-3.jpg"
+      "profilePic": "src/assets/profile-3.jpg"
     },
     {
       "id": "104",
       "username": "artistic_soul",
-      "profilePic": "./src/assets/profile-6.jpg"
+      "profilePic": "src/assets/profile-6.jpg"
     },
     {
       "id": "105",
       "username": "car_enthusiast",
-      "profilePic": "./src/assets/profile-7.jpg"
+      "profilePic": "src/assets/profile-7.jpg"
     },
     {
       "id": "106",
       "username": "book_addict",
-      "profilePic": "./src/assets/profile-8.jpg"
+      "profilePic": "src/assets/profile-8.jpg"
     },
     {
       "id": "107",
       "username": "fitness_freak",
-      "profilePic": "./src/assets/profile-5.jpg"
+      "profilePic": "src/assets/profile-5.jpg"
     }
   ]
 }
