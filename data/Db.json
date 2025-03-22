@@ -1,0 +1,189 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "username": "john_doe",
+      "profilePic": "src/assets/profile-1.jpg",
+      "imageUrl": "src/assets/nature-2.jpg",
+      "caption": "Chilling in nature 🌿",
+      "likes": 128,
+      "comments": [
+        {
+          "username": "emma_w",
+          "text": "So beautiful!"
+        },
+        {
+          "username": "mike_ross",
+          "text": "Nature is the best!"
+        }
+      ],
+      "createdAt": "2025-03-20T10:30:00Z"
+    },
+    {
+      "id": "2",
+      "username": "sara_lee",
+      "profilePic": "src/assets/profile-2.jpg",
+      "imageUrl": "src/assets/city.jpg",
+      "caption": "City vibes 🏙️",
+      "likes": 92,
+      "comments": [
+        {
+          "username": "alex23",
+          "text": "Love this place!"
+        },
+        {
+          "username": "jessica_b",
+          "text": "Nice view!"
+        }
+      ],
+      "createdAt": "2025-03-19T15:20:00Z"
+    },
+    {
+      "id": "3",
+      "username": "travel_guru",
+      "profilePic": "src/assets/profile-3.jpg",
+      "imageUrl": "src/assets/beach.jpg",
+      "caption": "Beach days are the best 🏖️☀️",
+      "likes": 210,
+      "comments": [
+        {
+          "username": "sandy_lover",
+          "text": "I wish I was there!"
+        },
+        {
+          "username": "beach_bum",
+          "text": "Perfect weather!"
+        }
+      ],
+      "createdAt": "2025-03-18T12:45:00Z"
+    },
+    {
+      "id": 4,
+    "username": "foodie_life",
+    "profilePic": "src/assets/profile-4.jpg",
+    "imageUrl": "src/assets/brunch.jpg",
+    "caption": "Brunch goals 🍳🥞",
+    "likes": 156,
+    "comments": [
+      { "username": "chef_mario", "text": "Looks delicious!" },
+      { "username": "sweettooth", "text": "Yummmm 😋" }
+    ],
+    "createdAt": "2025-03-17T09:10:00Z"
+    },
+    {
+      "id": 5,
+    "username": "fitness_freak",
+    "profilePic": "src/assets/profile-5.jpg",
+    "imageUrl": "src/assets/workout.jpg",
+    "caption": "Workout done for today! 💪 #NoExcuses",
+    "likes": 189,
+    "comments": [
+      { "username": "healthy_life", "text": "Keep grinding!" },
+      { "username": "gymrat_jake", "text": "Great job!" }
+    ],
+    "createdAt": "2025-03-16T18:30:00Z"
+    }
+  ],
+  "profile": {
+    "id": 101,
+    "username": "dona_donzz",
+    "profilePic": "src/assets/profile-2.jpg"
+  },
+  "suggestions": [
+    {
+      "id": "100",
+      "username": "john_doe",
+      "profilePic": "src/assets/profile-1.jpg"
+    },
+    {
+      "id": "102",
+      "username": "sara_lee",
+      "profilePic": "src/assets/profile-2.jpg"
+    },
+    {
+      "id": "103",
+      "username": "travel_guru",
+      "profilePic": "src/assets/profile-3.jpg"
+    },
+    {
+      "id": "104",
+      "username": "artistic_soul",
+      "profilePic": "src/assets/profile-6.jpg"
+    },
+    {
+      "id": "105",
+      "username": "car_enthusiast",
+      "profilePic": "src/assets/profile-7.jpg"
+    },
+    {
+      "id": "106",
+      "username": "book_addict",
+      "profilePic": "src/assets/profile-8.jpg"
+    }
+  ],
+  "story": [
+    {
+      "id": "11",
+      "username": "john_doe",
+      "profilePic": "src/assets/profile-1.jpg",
+      "imageUrl": "src/assets/story-1.jpg"
+    },
+    {
+      "id": "12",
+      "username": "sara_lee",
+      "profilePic": "src/assets/profile-2.jpg",
+      "imageUrl": "src/assets/story-2.jpg"
+    },
+    {
+      "id": "13",
+      "username": "travel_guru",
+      "profilePic": "src/assets/profile-3.jpg",
+      "imageUrl": "src/assets/story-3.jpg"
+    },
+    {
+      "id": "14",
+      "username": "artistic_soul",
+      "profilePic": "src/assets/profile-6.jpg",
+      "imageUrl": "src/assets/story-4.png"
+    },
+    {
+      "id": "15",
+      "username": "car_enthusiast",
+      "profilePic": "src/assets/profile-7.jpg",
+      "imageUrl": "src/assets/story-5.jpg"
+    },
+    {
+      "id": "16",
+      "username": "book_addict",
+      "profilePic": "src/assets/profile-8.jpg",
+      "imageUrl": "src/assets/story-6.jpg"
+    }
+  ],
+  "followers": [
+    {
+      "id": "103",
+      "username": "travel_guru",
+      "profilePic": "src/assets/profile-3.jpg"
+    },
+    {
+      "id": "104",
+      "username": "artistic_soul",
+      "profilePic": "src/assets/profile-6.jpg"
+    },
+    {
+      "id": "105",
+      "username": "car_enthusiast",
+      "profilePic": "src/assets/profile-7.jpg"
+    },
+    {
+      "id": "106",
+      "username": "book_addict",
+      "profilePic": "src/assets/profile-8.jpg"
+    },
+    {
+      "id": "107",
+      "username": "fitness_freak",
+      "profilePic": "src/assets/profile-5.jpg"
+    }
+  ]
+}
