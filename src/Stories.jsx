@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import {storiesData} from './utils/posts'
 
 function Stories() {
     const [Stories,setStories]=useState([]);
@@ -7,11 +8,14 @@ function Stories() {
     let tot=0;
 
     useEffect(() => {
-        fetch('http://localhost:3000/story')
-        .then(data => data.json())
-        .then(data => setStories(data))
-        .catch(err => console.log(err))
+        // fetch('http://localhost:3000/story')
+        // .then(data => data.json())
+        // .then(data => setStories(data))
+        // .catch(err => console.log(err))
+        setStories(storiesData)
     },[]);
+console.log('')
+
   return (
     <div className='story d-flex'>
         <div className='d-none'>

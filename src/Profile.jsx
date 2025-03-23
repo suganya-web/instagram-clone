@@ -1,39 +1,42 @@
 import React, { useEffect, useState } from 'react'
 import axios from 'axios'
+import {profileData} from './utils/posts'
 
 function Profile() {
-    const [profile,setProfile]=useState(null);
+    const [profile,setProfile]=useState([]);
     const [followers,setFollowers]=useState([]);
     const [unfollowed,setUnfollowed]=useState(0);
 
     useEffect(() => {
-        axios.get('http://localhost:3000/profile')
-        .then(data => setProfile(data.data))
-        .catch(err=>console.log(err))
+        // axios.get('http://localhost:3000/profile')
+        // .then(data => setProfile(data.data))
+        // .catch(err=>console.log(err))
 
-        axios.get('http://localhost:3000/followers')
-        .then(data => setFollowers(data.data))
-        .catch(err=>console.log(err))
-    },[unfollowed])
+        // axios.get('http://localhost:3000/followers')
+        // .then(data => setFollowers(data.data))
+        // .catch(err=>console.log(err))
+        setProfile(profileData)
+    },[]);
+    console.log('')
 
-    function HandleOnChange(e){
-        setProfile(prev => ({
-            ...prev,
-            [e.target.name]: e.target.value
-        }))
-    }
+    // function HandleOnChange(e){
+    //     setProfile(prev => ({
+    //         ...prev,
+    //         [e.target.name]: e.target.value
+    //     }))
+    // }
 
-    const handleUpdate= async()=>{
-        axios.put('http://localhost:3000/profile',profile)
-        .then(console.log("Updated"))
-        .catch(err => console.log(err))
-    }
-    const handleUnFollow= async(id)=>{
-        axios.delete(`http://localhost:3000/followers/${id}`)
-        .then(alert("Unfollowed"))
-        .then(setUnfollowed(!unfollowed))
-        .catch(err => console.log(err))
-    }
+    // const handleUpdate= async()=>{
+    //     axios.put('http://localhost:3000/profile',profile)
+    //     .then(console.log("Updated"))
+    //     .catch(err => console.log(err))
+    // }
+    // const handleUnFollow= async(id)=>{
+    //     axios.delete(`http://localhost:3000/followers/${id}`)
+    //     .then(alert("Unfollowed"))
+    //     .then(setUnfollowed(!unfollowed))
+    //     .catch(err => console.log(err))
+    // }
 
   return (
     <div className='m-5'>
@@ -42,7 +45,7 @@ function Profile() {
                 <img src={profile.profilePic} className='profile rounded-circle' alt="" />
                 <h5>{profile.username}</h5>
 
-                <input type="text"
+                {/* <input type="text"
                        value={profile.username}
                        name="username"
                        className='form-control my-4'
@@ -53,7 +56,7 @@ function Profile() {
                        name="profilePic"
                         className='form-control my-4'
                         onChange={HandleOnChange}
-                />
+                /> */}
                 <button className='btn btn-primary my-4' onClick={handleUpdate}>Update</button>
             </div>
         ):(

@@ -1,14 +1,17 @@
 import React, { useEffect, useState } from 'react'
+import {postsData} from './utils/posts'
+
 
 
 function Posts() {
     const [posts,setPosts]=useState([]);
 
     useEffect(()=> {
-        fetch('http://localhost:3000/posts')
-        .then((data) => data.json())
-        .then((data) => setPosts(data))
-        .catch(err => console.log(err))
+        // fetch('http://localhost:3000/posts')
+        // .then((data) => data.json())
+        // .then((data) => setPosts(data))
+        // .catch(err => console.log(err))
+        setPosts(postsData)
     },[]);
     console.log('')
 
